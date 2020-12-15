@@ -1,0 +1,65 @@
+.detail{
+    background: rgb(20,21,24);
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    height: calc(100vh - 60px);
+    padding: 3rem 0;
+}
+.item{
+    width:40%;
+    background-color: #141518;
+    box-shadow: 0 0 22px rgba(0,0,0,0.44);
+    padding: 1rem;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.image{
+    height:55vh;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+.title {
+    font-size: 1.5rem;
+    position: relative;    
+}
+.description {
+    font-weight: 100;
+    padding: 1rem 0;
+    text-align: justify;
+}
+.already{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1rem;
+    color:rgb(203,57,42);
+}
+.addToWatched{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+    color: rgba(41, 98, 255,0.8);
+    background-color: #2a2b2e;
+    font-size: 1.5rem;    
+    width: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+  color:rgb(203,57,42);
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+

@@ -1,0 +1,30 @@
+.Header{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(203,57,42);
+    background: rgb(25,30,37);
+    padding: 1rem 3rem;
+    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+.active{
+    color: rgb(206, 32, 13);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:active {
+    color: rgb(206, 32, 13);
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+li{
+    padding: 0 1rem;
+    font-size: 1rem;
+}

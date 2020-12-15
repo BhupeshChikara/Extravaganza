@@ -1,0 +1,37 @@
+.homepage{
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 60px) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background:  url('https://ems-media-prod.s3.amazonaws.com/styles/clio_aotw_ems_image_details_retina/s3/entry_attachments/image/51/1469/22438/75967/zVpbwD_47exEzEvkhsaCsgabtTMX2Ni2vnNqNRS4IB8.jpg/zVpbwD_47exEzEvkhsaCsgabtTMX2Ni2vnNqNRS4IB8.jpg') no-repeat fixed center;
+   box-shadow:inset 0 0 0 2000px rgba(255, 181, 181, 0.3);
+}
+
+.search{
+    width:40%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text] {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid white;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus{
+border-color: rgb(203,57,42);
+}

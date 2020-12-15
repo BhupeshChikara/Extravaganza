@@ -1,0 +1,83 @@
+.MyContent{
+    background: rgb(20,21,24);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: calc(100vh - 60px);
+    padding: 2rem 3rem;
+}
+.movies>p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.series>p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.episodes>p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.items .item{
+
+    position: relative;
+    flex:0 1 calc((100% / 5) - 2rem);
+    margin-bottom: 2rem;
+    /* height: 40vh; */
+    transition: all 1s ease-in-out;
+}
+
+
+.item:hover .delete{
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.delete:hover{
+   background-color: rgb(203,57,42);
+}
+
+.items .item .image {
+    height: 25vh;
+    overflow: hidden;
+}
+img{
+    transition: all 1s ease-in-out;
+}
+.image:hover img{
+   transform: scale(1.1);
+}
+.buttons {
+   position: absolute;
+   bottom: 1rem;right: 1rem;   
+}
+.buttons .delete{
+    opacity: 0;
+    color: white;
+    background-color: #2a2b2e;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50%;
+}
+.saved {
+    position: absolute;
+    top: 1rem;right: 1rem;
+    z-index: 3;
+}
+.saved>input{
+    height: 1rem;
+    width: 1rem;
+    
+
+}

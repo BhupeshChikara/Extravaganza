@@ -1,0 +1,12 @@
+.NotFound{ 
+    background: rgb(20,21,24);
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    height: calc(100vh - 60px);
+    padding: 3rem 0;
+}
+h3{
+    font-size: 3rem;
+    color: rgb(203,57,42);
+}
